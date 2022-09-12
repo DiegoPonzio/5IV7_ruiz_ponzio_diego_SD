@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa de Subneteo</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <input type = 'number' id = 'primeros3Numeros' minlength = '0' maxlength = '3' size = '3'>
+                                    </td>
+                                    <td>
+                                        <h1>.</h1>
+                                    </td>
+                                    <td>
+                                        <input type = 'number' id = 'segundos3Numeros' minlength = '0' maxlength = '3' size = '3'>
+                                    </td>
+                                    <td>
+                                        <h1>.</h1>
+                                    </td>
+                                    <td>
+                                        <input type = 'number' id = 'terceros3Numeros' minlength = '0' maxlength = '3' size = '3'>
+                                    </td>
+                                    <td>
+                                        <h1>.</h1>
+                                    </td>
+                                    <td>
+                                        <input type = 'number' id = 'cuartos3Numeros' minlength = '0' maxlength = '3' size = '3'>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td></td>
+                    <td><button onclick="convertirTodos()">Calcular!</button></td>
+                    <td></td>
+                    <td>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td colspan = "4">
+                                        <label>TIPO DE RED</label>
+                                        <input readonly = 'readonly' id = 'claseIp' type="text" width = 200px>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan = "4">
+                                        <label>MASCARA SUBRED</label>
+                                        <input readonly = 'readonly' id = 'mascaraSubred' type="text" width = 200px>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <div>
+        <span>Escribe el numero que necesites</span>
+    </div>
+    <div>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type = 'number' id = 'subredesNecesarias'></td>
+                        <td colspan="2">
+                            <label>HOST DISPONIBLE</label>
+                            <input type="text" readonly = 'readonly' id = 'hostdisponbile'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input value = 'CALCULAR' type = 'button' onclick = "obtenerNumeroDeHost()">
+                        </td>
+                        <td>
+                            <label>VALOR DEL SALTO</label>
+                            <input type="text" readonly = 'readonly' id = 'salto'>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <script src="js/subredcal.js"></script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="footer">
+        <h1>Centro de Estudios Cientificos y Tecnologicos No. 9 "Juan de dios batiz"</h1>
+        <br>
+        <ul class="icons">
+            <li><a href="https://diegoponzio.github.io/4IV7_PSW_RUIZPONZIODIEGO/Mitrabajo/index.html">Nombre: Ruiz Ponzio Diego</a></li>
+            <li><a href="./index.html">Pagina Principal</a></li>
+            <li><a href="./index.html">Insertar mas css :(</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
